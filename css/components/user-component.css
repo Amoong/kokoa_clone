@@ -38,5 +38,17 @@
 }
 
 .user-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 100%;
   color: rgba(0, 0, 0, 0.5);
+  align-self: stretch;
+}
+
+.user-component__time {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
 }
